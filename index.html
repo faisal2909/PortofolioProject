@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MY PORTOFOLIO | Muhammad Faisal Hakim</title>
+
+    <link href="style/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/b2cdd5097c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navigation -->
+    <header>
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <p id="logo">MFH</p>
+            </div>
+
+            <div class="navbar-icon" id="navbar-icon">
+                <i class="fa-solid fa-list-ul"></i>
+            </div>
+
+            <div class="navbar-list">
+                <ul id="navbar-ul" class="hidden">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Project</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <button id="dark-theme">Dark Theme</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <div class="content-container">
+            <section class="content-home">
+                <div class="home-left">
+                    <p id="home-job"><span class="efek-tik">Front End Developer</span></p>
+                    <h1 id="home-judul">Muhammad Faisal Hakim</h1>
+                    <p id="home-title">I am a student working in the field of front end and graphic design</p>
+
+                    <a class="home-button" href="Asset/CV M FAISAL HAKIM.pdf">Download CV</a>
+                </div>
+                <div class="home-right">
+                    <img src="Asset/image/profil.png" alt="Gambar Profil" />
+                </div>
+            </section>
+            <section class="content-latarbelakang">
+                <h1 id="lb-judul">Latar Belakang</h1>
+                <p id="lb-description">
+                    Sebagai seorang mahasiswa aktif prodi sistem teknologi informasi yang memiliki ketertarikan
+                    pengalaman di
+                    bidang IT, serta pengalaman di bidang design graphic. Selalu siap dengan pengalaman yang menawarkan
+                    pertumbuhan dan kemajuan di berbagai bidang industri terutama di keminatan. Memiliki tanggung jawab
+                    terhadap pekerjaan dan problem solving yang baik.
+                </p>
+            </section>
+            <section class="content-project">
+                <h1 id="project-judul">project</h1>
+                <div class="project-gambar"> <!-- display-flex -->
+                    <img src="Asset/image/packaging_branding.jpg" alt="gambar packaging design" class="project-img"
+                        id="img-1">
+                    <img src="Asset/image/poster_food.jpg" alt="gambar poster" class="project-img" id="img-2">
+                    <img src="Asset/image/logo_noer.jpg" alt="gambar logo" class="project-img" id="img-3">
+                    <img src="Asset/image/tshirt_aftersmoke.jpg" alt="gambar tshirt" class="project-img" id="img-4">
+                    <img src="Asset/image/tshirt_butterfly.jpg" alt="gambar tshirt" class="project-img" id="img-5">
+                    <img src="Asset/image/tshirt_enchating.jpg" alt="gambar tshirt" class="project-img" id="img-6">
+                </div>
+                <a class="project-button"
+                    href="https://drive.google.com/drive/folders/1smOd5TXdBoSu6UbkMMt9X75Q2ON9OyUu?usp=drive_link">More</a>
+            </section>
+            <section class="content-contact">
+                <h1 id="contact-judul">contact us</h1>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="940067d8-fc67-401f-8551-c621ec84f050">
+                    <div class="form">
+                        <input type="text" id="name" placeholder="Name" name="name...">
+                    </div>
+                    <div class="form">
+                        <input type="email" id="email" placeholder="Email" name="email...">
+                    </div>
+                    <div class="form">
+                        <textarea id="message" placeholder="Message" name="message..." cols="30" rows="10"></textarea>
+                    </div>
+                    <button class="contact-button">Submit</button>
+                </form>
+            </section>
+        </div>
+        <aside class="content-sosmed">
+            <div class="sosmed-container">
+                <ul>
+                    <li><a href="#"><i class="fab fa-linkedin-in" id="satu"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter" id="dua"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook" id="tiga"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" id="empat"></i></a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <h1 class="credit-footer">Copyright &copy; 2020 Muhammad Faisal Hakim | Portofolio Website.</h1>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
